@@ -5,6 +5,8 @@ import time
 load_dotenv()
 import snowflake.connector
 from datetime import datetime
+import snowflake.connector
+from datetime import datetime
 
 def run_stock_job():
     MASSIVE_API_KEY = os.getenv('MASSIVE_API_KEY')
